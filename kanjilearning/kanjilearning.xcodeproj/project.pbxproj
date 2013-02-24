@@ -13,6 +13,7 @@
 		B2C5D02916DA23590030D080 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B2C5D02716DA23590030D080 /* Credits.rtf */; };
 		B2C5D02C16DA23590030D080 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D02B16DA23590030D080 /* AppDelegate.m */; };
 		B2C5D02F16DA23590030D080 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C5D02D16DA23590030D080 /* MainMenu.xib */; };
+		B2C5D03A16DA26FE0030D080 /* KanjiDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D03916DA26FE0030D080 /* KanjiDTO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		B2C5D02A16DA23590030D080 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2C5D02B16DA23590030D080 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B2C5D02E16DA23590030D080 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B2C5D03816DA26FE0030D080 /* KanjiDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanjiDTO.h; sourceTree = "<group>"; };
+		B2C5D03916DA26FE0030D080 /* KanjiDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanjiDTO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				B2C5D02B16DA23590030D080 /* AppDelegate.m */,
 				B2C5D02D16DA23590030D080 /* MainMenu.xib */,
 				B2C5D01F16DA23580030D080 /* Supporting Files */,
+				B2C5D03816DA26FE0030D080 /* KanjiDTO.h */,
+				B2C5D03916DA26FE0030D080 /* KanjiDTO.m */,
 			);
 			path = kanjilearning;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			files = (
 				B2C5D02516DA23580030D080 /* main.m in Sources */,
 				B2C5D02C16DA23590030D080 /* AppDelegate.m in Sources */,
+				B2C5D03A16DA26FE0030D080 /* KanjiDTO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

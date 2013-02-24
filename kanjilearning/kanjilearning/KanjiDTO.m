@@ -23,6 +23,7 @@
     //NSInteger integer = [contents integerValue];
     
     NSArray *lines = [contents componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]];
+    
     NSInteger count = [lines count];
     int r = rand() % count;
     [_VietnameseMeaning setStringValue:[lines objectAtIndex:r]];

@@ -11,4 +11,5 @@
 @interface KanjiDTO : NSObject
 @property (weak) IBOutlet NSTextField *VietnameseMeaning;
 
+@property (weak) IBOutlet NSTextField *Yourname;
 @end

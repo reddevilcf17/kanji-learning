@@ -24,6 +24,9 @@
     
     NSArray *lines = [contents componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]];
     NSInteger count = [lines count];
+    
+    NSArray *meaning = [[NSArray alloc] init];
+//    NSArray *kanji;
     int r = rand() % count;
     [_VietnameseMeaning setStringValue:[lines objectAtIndex:r]];
 }

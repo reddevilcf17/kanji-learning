@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface KanjiDTO : NSObject
+@property (weak) IBOutlet NSTextField *VietnameseMeaning;
 
 @end

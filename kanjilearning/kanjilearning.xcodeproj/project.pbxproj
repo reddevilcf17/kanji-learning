@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B223A91616DDAAE9002BEF77 /* KanjiWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B223A91516DDAAE9002BEF77 /* KanjiWindow.xib */; };
+		B223A91A16DDABD5002BEF77 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B223A91916DDABD5002BEF77 /* WindowController.m */; };
 		B2C5D01916DA23580030D080 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C5D01816DA23580030D080 /* Cocoa.framework */; };
 		B2C5D02316DA23580030D080 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2C5D02116DA23580030D080 /* InfoPlist.strings */; };
 		B2C5D02516DA23580030D080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D02416DA23580030D080 /* main.m */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B223A91516DDAAE9002BEF77 /* KanjiWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanjiWindow.xib; sourceTree = "<group>"; };
+		B223A91816DDABD5002BEF77 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		B223A91916DDABD5002BEF77 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
 		B2C5D01416DA23580030D080 /* kanjilearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanjilearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C5D01816DA23580030D080 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B2C5D01B16DA23580030D080 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -91,6 +96,9 @@
 				B2C5D01F16DA23580030D080 /* Supporting Files */,
 				B2C5D03816DA26FE0030D080 /* KanjiDTO.h */,
 				B2C5D03916DA26FE0030D080 /* KanjiDTO.m */,
+				B223A91516DDAAE9002BEF77 /* KanjiWindow.xib */,
+				B223A91816DDABD5002BEF77 /* WindowController.h */,
+				B223A91916DDABD5002BEF77 /* WindowController.m */,
 			);
 			path = kanjilearning;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 				B2C5D02316DA23580030D080 /* InfoPlist.strings in Resources */,
 				B2C5D02916DA23590030D080 /* Credits.rtf in Resources */,
 				B2C5D02F16DA23590030D080 /* MainMenu.xib in Resources */,
+				B223A91616DDAAE9002BEF77 /* KanjiWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +183,7 @@
 				B2C5D02516DA23580030D080 /* main.m in Sources */,
 				B2C5D02C16DA23590030D080 /* AppDelegate.m in Sources */,
 				B2C5D03A16DA26FE0030D080 /* KanjiDTO.m in Sources */,
+				B223A91A16DDABD5002BEF77 /* WindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +313,7 @@
 				B2C5D03416DA23590030D080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
